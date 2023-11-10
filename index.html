@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proje | Merve Sarı</title>
+    <meta name="keyword" content="Programlama" />
+
+    <meta name="description" content="Merve Sarı | Programlama" />
+
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font Awesome-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="(max-width: 576px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Merve Sarı</h1>
+
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Eğitimler</a></li>
+            <li><a href="#courses">Kurslar</a></li>
+            <li><a href="#content">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img src="images/IMG_2042.jpg" alt="merve sarı" />
+      <div class="name text-center">
+        <h2 class="heading-big">Merve Sarı</h2>
+        <p>Software Engineer</p>
+      </div>
+
+      <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center">Eğitimler</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Aldığım Eğitimler</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            incidunt non aut placeat alias ut odit! Aperiam tenetur eligendi
+            asperiores.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Aldığım Sertifikalar</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            incidunt non aut placeat alias ut odit! Aperiam tenetur eligendi
+            asperiores.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Çalıştığım Yerler</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            incidunt non aut placeat alias ut odit! Aperiam tenetur eligendi
+            asperiores.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-medium">Kurslar</h3>
+      <div class="container">
+        <div class="courses">
+          
+            <div class="course-style">
+                <div class="text" ><img class="course-image" 
+                    src="images/CSS3_logo.svg.png" 
+                    alt="CSS" />
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, optio.</span>
+                </div>
+                <div class="discount-container">
+                    
+                    <button class="discount-button">
+                        50% İndirim
+                    </button>
+                </div>
+            </div>
+
+
+            <div  class="course-style">
+                <div class="text">  <img
+                class="course-image"
+                src="images/javascript_logo.png"
+                alt="JavaScript"
+              />
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime possimus ducimus tempore vel laudantium! Quaerat nihil commodi sequi, ea dolorem doloribus in laborum tenetur temporibus.</span>
+            </div>
+            <div class="discount-container">
+                    
+                <button class="discount-button">
+                    50% İndirim
+                </button>
+            </div>
+            </div>
+            
+
+            
+            <div class="course-style">
+                <div class="text"> <img class="course-image" src="images/java.png" alt="Java" />
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illum atque explicabo incidunt itaque corporis nesciunt voluptatum. Asperiores, aut assumenda.
+                </span>
+                </div>
+                <div class="discount-container">
+                    
+                    <button class="discount-button">
+                        50% İndirim
+                    </button>
+                </div>
+            </div>
+            
+            
+           
+            <div class="course-info">
+              <div class="title"></div>
+              <div class="description"></div>
+              <div class="instructor"></div>
+              <div class="rating"></div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contactform">
+            <form >
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+             <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text"  
+                class= "form-control" 
+                name="name" 
+                placeholder="İsim">
+             </div>
+
+             <div class="form-group">
+                <label for="email">email</label>
+                <input type="text"  
+                class= "form-control" 
+                name="email" 
+                placeholder="E-Mail"/>
+             </div>
+
+             <div class="form-group">
+                <label for="message">Mesaj</label>
+                <textarea type="text" 
+                id="message" 
+                class= "form-control" 
+                rows="5"
+                placeholder="Mesajınız"></textarea>
+
+             </div>
+
+             <button type="submit" class="btn btn-block">
+                Gönder
+            </button>
+
+
+                </div>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/merve-sar%C4%B1-63782623b/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" >
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+  </body>
+</html>
